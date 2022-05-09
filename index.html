@@ -17,7 +17,7 @@
   <div class="row">
     <div class="col-sm-12 col-md-3">
       <div id="sidebar">
-        <div class="sidebar-header">
+        <div class="sidebar-header sidebar-padding">
           <img class="rounded-circle img-thumbnail" src="./Assets/portfolio.JPG" alt="my-profile-pic">
         </div>
 
@@ -51,35 +51,139 @@
           <li>
             <span class="pull-right">MBA (2019)</span>
             <i class="font-icon fa fa-graduation-cap"></i><br>
-            <span class="pull-right">King University</span>
+            <span class="pull-right">King University</span><br>
           </li>
+          <br>
           <li>
             <span class="pull-right">BBA Economics (2012)</span>
             <i class="font-icon fa fa-graduation-cap"></i><br>
-            <span class="pull-right">King University</span>
-          </li>
-        </ul>
-
-        <ul class="list-unstyled components">
-          <p>Resume Links</p>
-          <li class="active">
-            <a href="#">About Me</a>
-          </li>
-          <li>
-            <a href="#">Work Experience</a>
-          </li>
-          <li>
-            <a href="#">Skills</a>
+            <span class="pull-right">King University</span><br>
           </li>
         </ul>
       </div>
     </div>
 
     <div class="col-sm-12 col-md-9">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        
+      <nav id="Top" class="navbar navbar-expand-lg navbar-light bg-light">
+        <ul>
+          <li><a class="btn btn-outline-primary" href="#Profile">Profile</a></li>
+          <li><a class="btn btn-outline-primary" href="#Work-Experience">Work Experience</a></li>
+          <li><a class="btn btn-outline-primary" href="#Skills-Strengths">Skills &amp; Strengths</a></li>
+          <li><a class="btn btn-outline-primary" href="#Projects">Projects</a></li>
+          <li><a class="btn btn-outline-primary" href="#Resume">Resume</a></li>
+      </ul>
       </nav>
+    
+      <section class="article-profile-section">
+        <h2 id="Profile">Profile</h2>
+        <hr>
+        <p>Student at UNCC coding bootcamp and future Front-end developer with diverse work experience
+            and educational background.
+            I hold a BBA with concentration in Economics and MBA with concentration in information
+            systems management.
+            As a student of coding bootcamp I am developing the following skills; JavaScript, CSS,
+            React.js, AWS, Python and responsive web design.
+            I enjoy solving problems; making a difference in people's lives in community, work place, or
+            developing new websites to integrate new business or personal ideas thru web.
+            My recent experience includes a group project under the name of State-Park-Weather.
+            The goal of the website is to create an easy to use portal for users to search by US state
+            and display National Park along with associated weather information.
+            Process design includes HTML, JavaScript, CSS framework, APIs, and GitHub.
+            I am more than excited to apply my skill set in order to make applications more user
+            friendly and bring new ideas to the web.
+        </p>
+    </section>
+
+    <section class="article-work-experience-section">
+        <h2 id="Work-Experience">Work Experience</h2>
+        <hr>
+        <section>
+            <div class="work-experience-split">
+                <div class="adjust-top work-first">
+                    <p class="adjust-bottom"><strong> Banking </strong></p>
+                    <p class="silver adjust-bottom-1"><em>Charlotte, NC</em></p>
+                </div>
+
+                <div class="work-second">
+                    <p class="silver"> 2014 - 2022 </p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="work-experience-split">
+                <div class="adjust-top work-first">
+                    <p class="adjust-bottom"><strong></strong></p>
+                    <p class="silver adjust-bottom-1"><em>Banking </em></p>
+                </div>
+
+                <div class="work-second">
+                    <p class="silver"></p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="work-experience-split">
+                <div class="adjust-top work-first">
+                    <p class="adjust-bottom"><strong>Banking</strong></p>
+                    <p class="silver adjust-bottom-1"><em>Charlotte, NC</em></p>
+                </div>
+
+                <div class="work-second">
+                    <p class="silver"></p>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <section class="article-skills-section">
+        <h2 id="Skills-Strengths">Skills &amp; Strengths</h2>
+        <hr>
+        <div class="badge-skill-wrapper">
+          <span class="badge badge-pill badge-primary">JavaScript</span>
+          <span class="badge badge-pill badge-primary">HTML</span>
+          <span class="badge badge-pill badge-primary">CSS</span>
+          <span class="badge badge-pill badge-primary">APIs</span>
+        </div>
+        <hr>
+    </section>                
+    <section>
+        <h2 id="Projects">Projects</h2>
+        <hr>
+        <div class="row">
+          <div class="col-sm-12 col-md-6">
+            <div class="card">
+              <img class="card-img-top" src="./Assets/password-generator.png" alt="password generator">
+              <div class="card-body">
+                <h5 class="card-title">Secure Password Generator</h5>
+                <p class="card-text">This simple application generates secure passwords using industry standards.</p>
+                <a href="https://edinhurem.github.io/password-generator/" class="btn btn-outline-primary" style="width: 100%">View Project</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6">
+            <div class="card">
+              <img class="card-img-top" src="./Assets/weather-app.png" alt="weather in state park">
+              <div class="card-body">
+                <h5 class="card-title">State Park Weather</h5>
+                <p class="card-text">Find out the weather before you enjoy the natural wonders of the USA</p>
+                <a href="https://felix1805.github.io/State-Park-Weather/" class="btn btn-outline-primary" style="width: 100%">View Project</a>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+    <section>
+        <h2 id="Resume">Resume (PDF)</h2>
+        <hr>
+        <p>
+            <a href = "pdfresume.pdf" download> Click Here for PDF Resume </a>
+        </p>
+    </section>
+
     </div>
   </div>
+  <a id="back-to-top" href="#Top" class="btn btn-light btn-lg back-to-top" role="button"><i class="fas fa fa-chevron-circle-up"></i></a>
 </body>
 </html>

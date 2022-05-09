@@ -1,8 +1,27 @@
 @import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
 
+html {
+	scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
     background: #fafafa;
+}
+
+nav {
+  text-align: center;
+}
+
+nav ul {
+  display: inline-block;
+  padding: 0;
+  width: 100%;
+}
+
+nav ul li {
+  display: inline-block;
+  text-decoration: none;
 }
 
 p {
@@ -19,11 +38,22 @@ a, a:hover, a:focus {
     transition: all 0.3s;
 }
 
+#sidebar a, #sidebar a:focus {
+  color: white;
+  text-decoration: underline;
+  text-decoration-color: #4c5b9e;
+}
+
+#sidebar a:hover {
+  color: rgba(255, 255, 255, 0.712);
+  text-decoration-color: #4c5b9e;
+}
+
 #sidebar {
-  background: #6b7dce;
+  background: #2e4199;
   color: #fff;
   transition: all 0.3s;
-
+  height: 100%;
 }
 
 #sidebar ul p {
@@ -35,4 +65,25 @@ a, a:hover, a:focus {
 #sidebar ul li {
   padding-left: 10px;
   padding-right: 10px;
+}
+
+#back-to-top {
+  position: fixed;
+  bottom: 0px;
+  right: 25px;
+  border: 1px solid gray;
+}
+
+.sidebar-padding {
+  padding: 25px;
+}
+
+.badge-skill-wrapper span.badge {
+  padding: 10px;
+  background-color: #4c5b9e;
+}
+
+.badge-skill-wrapper span.badge:nth-child(even) {
+  padding: 10px;
+  background-color: #8a8d97;
 }
