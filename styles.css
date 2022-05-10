@@ -87,3 +87,13 @@ a, a:hover, a:focus {
   padding: 10px;
   background-color: #8a8d97;
 }
+
+footer {
+ border-top: 1px solid black;
+ text-align: center;
+}
+
+footer i.font-icon {
+  font-size: 35px;
+  margin: 20px;
+}
